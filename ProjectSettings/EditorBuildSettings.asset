@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Scenes/01 - Running.unity
+    guid: 67634d2de51e9ea4f8e777233217e30d
+  - enabled: 1
+    path: Assets/_Scenes/02 - Trip and Cry.unity
+    guid: 4d8f53babbe5d6b469bf8a591225b459
+  - enabled: 1
+    path: Assets/_Scenes/End.unity
+    guid: 4455f94d66f800546a9648e4050da49c
   m_configObjects: {}
