@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scenes/collab_test_scene.unity
+- path: Assets/_Scenes/natTest.unity
   isLoaded: 1
   isActive: 1
