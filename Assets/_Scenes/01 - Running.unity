@@ -756,7 +756,7 @@ Transform:
   - {fileID: 168810578}
   - {fileID: 1950413385}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 37.115, z: 0}
 --- !u!95 &459106359
 Animator:
@@ -767,7 +767,7 @@ Animator:
   m_GameObject: {fileID: 459106357}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5cf2626a23c3cfd4686436e479aa868f, type: 2}
+  m_Controller: {fileID: 9100000, guid: f7d430e152a943b4bb4e0cb0dddd54ef, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1396,7 +1396,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fb31a40111aa02949b3bb3381e76037b, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fb31a40111aa02949b3bb3381e76037b, type: 3}
       propertyPath: m_LocalScale.x

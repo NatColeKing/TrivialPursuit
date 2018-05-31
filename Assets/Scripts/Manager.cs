@@ -17,6 +17,7 @@ public class Manager : MonoBehaviour {
 		if(Time.time > 13)
 		{
 			SceneManager.LoadScene("02 - Trip and Cry");
+			//Animation.Stop("Animations/Scene - 01/characters_run");
 		}
 		// if(Time.time > 17)
 		// {
