@@ -8,6 +8,7 @@ ModelImporter:
     400000: //RootNode
     400002: new_robot_friend
     2100000: new_robot_friendSG
+    2100002: new_robot_friendMat
     2300000: new_robot_friend
     3300000: new_robot_friend
     4300000: new_robot_friend
