@@ -8,11 +8,13 @@ ModelImporter:
     400000: //RootNode
     400002: polySurface24
     2100000: polySurface24SG
+    2100002: polySurface24Mat
     2300000: polySurface24
     3300000: polySurface24
     4300000: polySurface24
     2186277476908879412: ImportLogs
     2186277476908879414: ImportLogs
+    2186277476908879416: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1

@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System;
 
 public class Manager : MonoBehaviour {
-
-	// Use this for initialization
+	int scene = 1;
+	float timer = 0;
 	void Start ()
 	{
 
@@ -14,16 +15,34 @@ public class Manager : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
 	{
-		if(Time.time > 13)
+		timer = Time.timeSinceLevelLoad;
+		// Invoke("sceneLoad()", 13);
+		Debug.Log("Timer = " + timer);
+		Debug.Log("Scene = " + scene);
+		if(scene == 1)
 		{
-			SceneManager.LoadScene("02 - Trip and Cry");
-			//Animation.Stop("Animations/Scene - 01/characters_run");
+			if(timer > 13)
+			{
+				scene++;
+				timer = 0;
+				SceneManager.LoadScene("02 - Trip and Cry");
+			}
 		}
-		// if(Time.time > 17)
-		// {
-		// 	UnityEditor.EditorApplication.isPlaying = false;
-		// }
+		if(scene == 2)
+		{
+			if(timer > 4)
+			{
+				scene++;
+				timer = 0;
+				SceneManager.LoadScene("03 - Blackout");
+			}
+		}
 		// Application.Quit();
-
 	}
+
+	// void sceneLoad()
+	// {
+	// 	SceneManager.LoadScene((String)sceneTrack);
+	// 	sceneTrack++;
+	// }
 }

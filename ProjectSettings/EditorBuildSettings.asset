@@ -6,12 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/_Scenes/00 - Intro Running 1.unity
+    guid: 8cf5245a42704bc489e4dc8abfc40215
+  - enabled: 1
     path: Assets/_Scenes/01 - Running.unity
     guid: 67634d2de51e9ea4f8e777233217e30d
   - enabled: 1
     path: Assets/_Scenes/02 - Trip and Cry.unity
     guid: 4d8f53babbe5d6b469bf8a591225b459
   - enabled: 1
-    path: Assets/_Scenes/End.unity
-    guid: 4455f94d66f800546a9648e4050da49c
+    path: Assets/_Scenes/03 - Blackout.unity
+    guid: c57433f7c6f7fd04e9845d07a43ea6d1
+  - enabled: 1
+    path: Assets/_Scenes/04 - Stomp to fight.unity
+    guid: 562761eba1cd96e4e8b0e909d2ab2b3a
+  - enabled: 1
+    path: Assets/_Scenes/05 - End.unity
+    guid: 54c33a7eb0cef554da7216cf82950671
   m_configObjects: {}
