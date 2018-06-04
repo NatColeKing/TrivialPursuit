@@ -1,48 +1,59 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine.SceneManagement;
-using System;
 
 public class Manager : MonoBehaviour {
 	int scene = 1;
-	float timer = 0;
 	void Start ()
 	{
-
+		DontDestroyOnLoad(this.gameObject);
 	}
 
 	// Update is called once per frame
 	void Update ()
 	{
-		timer = Time.timeSinceLevelLoad;
-		// Invoke("sceneLoad()", 13);
-		Debug.Log("Timer = " + timer);
 		Debug.Log("Scene = " + scene);
-		if(scene == 1)
+		Debug.Log("Time = " + Time.timeSinceLevelLoad);
+		if(scene == 5)
 		{
-			if(timer > 13)
+			if(Time.timeSinceLevelLoad > 6)
 			{
-				scene++;
-				timer = 0;
-				SceneManager.LoadScene("02 - Trip and Cry");
+				// Application.Quit();
+			}
+		}
+		if(scene == 4)
+		{
+			if(Time.timeSinceLevelLoad > 4)
+			{
+				SceneManager.LoadScene("05 - End");
+				scene = 5;
+			}
+		}
+		if(scene == 3)
+		{
+			if(Time.timeSinceLevelLoad > 4)
+			{
+				SceneManager.LoadScene("04 - Stomp to fight");
+				scene = 4;
 			}
 		}
 		if(scene == 2)
 		{
-			if(timer > 4)
+			if(Time.timeSinceLevelLoad > 12)
 			{
-				scene++;
-				timer = 0;
 				SceneManager.LoadScene("03 - Blackout");
+				scene = 3;
 			}
 		}
-		// Application.Quit();
+		if(scene == 1)
+		{
+			if(Time.timeSinceLevelLoad > 12)
+			{
+				SceneManager.LoadScene("02 - Trip and Cry");
+				scene = 2;
+			}
+		}
 	}
-
-	// void sceneLoad()
-	// {
-	// 	SceneManager.LoadScene((String)sceneTrack);
-	// 	sceneTrack++;
-	// }
 }
