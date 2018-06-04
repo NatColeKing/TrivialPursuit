@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 
 public class Manager : MonoBehaviour {
-	int scene = 1;
+	int scene = 0;
 	void Start ()
 	{
 		DontDestroyOnLoad(this.gameObject);
@@ -53,6 +53,14 @@ public class Manager : MonoBehaviour {
 			{
 				SceneManager.LoadScene("02 - Trip and Cry");
 				scene = 2;
+			}
+		}
+		if(scene == 0)
+		{
+			if(Time.timeSinceLevelLoad > 11)
+			{
+				SceneManager.LoadScene("01 - Running");
+				scene = 1;
 			}
 		}
 	}
