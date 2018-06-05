@@ -57,7 +57,7 @@ public class Manager : MonoBehaviour {
 		}
 		if(scene == 0)
 		{
-			if(Time.timeSinceLevelLoad > 10)
+			if(Time.timeSinceLevelLoad > 8)
 			{
 				SceneManager.LoadScene("01 - Running");
 				scene = 1;
