@@ -93,6 +93,7 @@ C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.analytics@0.0.1
 C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.analytics@0.0.19/Editor/UnityEditor.Analytics.dll
 C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll
 C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll
+C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.5/UnityEngine.StandardEvents.dll
 C:\Program Files\Unity 2018.1.0b2\Editor\Data\PlaybackEngines\AppleTVSupport\UnityEditor.iOS.Extensions.Xcode.dll
 C:/Program Files/Unity 2018.1.0b2/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll
 C:/Program Files/Unity 2018.1.0b2/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll
