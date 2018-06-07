@@ -41,7 +41,7 @@ public class Manager : MonoBehaviour {
 		}
 		if(scene == 2)
 		{
-			if(Time.timeSinceLevelLoad > 15)
+			if(Time.timeSinceLevelLoad > 19)
 			{
 				SceneManager.LoadScene("03 - Blackout");
 				scene = 3;
