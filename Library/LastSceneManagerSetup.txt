@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scenes/00 - Intro Running.unity
+- path: Assets/_Scenes/04 - Stomp to fight.unity
   isLoaded: 1
   isActive: 1
