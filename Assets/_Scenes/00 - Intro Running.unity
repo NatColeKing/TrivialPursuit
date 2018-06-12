@@ -786,8 +786,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 459106357}
-  m_LocalRotation: {x: -0, y: 0.3182596, z: -0, w: 0.94800365}
-  m_LocalPosition: {x: 196.69, y: -10.01, z: 164.75}
+  m_LocalRotation: {x: -0, y: 0.61270535, z: -0, w: 0.7903115}
+  m_LocalPosition: {x: 246.56, y: -10.01, z: 107.65}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 104407138}
@@ -796,7 +796,7 @@ Transform:
   - {fileID: 1950413385}
   m_Father: {fileID: 0}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 37.115, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 75.57101, z: 0}
 --- !u!95 &459106359
 Animator:
   serializedVersion: 3
@@ -1753,6 +1753,7 @@ GameObject:
   - component: {fileID: 1922680020}
   - component: {fileID: 1922680019}
   - component: {fileID: 1922680018}
+  - component: {fileID: 1922680017}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1760,6 +1761,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &1922680017
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1922680016}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dcbc488ae5f680b4aaa03e55390ccb5f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!124 &1922680018
 Behaviour:
   m_ObjectHideFlags: 0
@@ -1809,13 +1828,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1922680016}
-  m_LocalRotation: {x: -0, y: -0.89016724, z: -0, w: 0.45563403}
-  m_LocalPosition: {x: 197.99, y: 0.99, z: 102.61}
+  m_LocalRotation: {x: -0, y: 0.54462546, z: -0, w: -0.83867943}
+  m_LocalPosition: {x: 213.53, y: 1.32, z: 67.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: -125.78901, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 294.002, z: 0}
 --- !u!1001 &1950413384
 Prefab:
   m_ObjectHideFlags: 0

@@ -25,7 +25,7 @@ public class Manager : MonoBehaviour {
 		}
 		if(scene == 4)
 		{
-			if(Time.timeSinceLevelLoad > 64)
+			if(Time.timeSinceLevelLoad > 62)
 			{
 				SceneManager.LoadScene("05 - End");
 				scene = 5;
@@ -57,7 +57,7 @@ public class Manager : MonoBehaviour {
 		}
 		if(scene == 0)
 		{
-			if(Time.timeSinceLevelLoad > 7)
+			if(Time.timeSinceLevelLoad > 9)
 			{
 				SceneManager.LoadScene("01 - Running");
 				scene = 1;
