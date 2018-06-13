@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scenes/04 - Stomp to fight.unity
+- path: Assets/_Scenes/05 - End.unity
   isLoaded: 1
   isActive: 1
