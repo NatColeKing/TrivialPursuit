@@ -9,6 +9,7 @@ public class bandit_02_scene04 : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		source = GetComponent<AudioSource>();
+		//source.setActive (false);
 	}
 	
 	// Update is called once per frame
@@ -16,7 +17,8 @@ public class bandit_02_scene04 : MonoBehaviour {
 		Debug.Log("Time = " + Time.timeSinceLevelLoad);
 
 		if(Time.timeSinceLevelLoad > 17){
-				source.Play();
+				//source.Play();
+			//source.SetActive(true);
 		}
 	}
 }
