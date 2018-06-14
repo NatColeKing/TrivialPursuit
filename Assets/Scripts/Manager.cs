@@ -16,12 +16,12 @@ public class Manager : MonoBehaviour {
 		Debug.Log("Time = " + Time.timeSinceLevelLoad);
 
 		if(scene == 5){
-			if(Time.timeSinceLevelLoad > 6){
+			if(Time.timeSinceLevelLoad > 8){
 				// Application.Quit();
 			}
 		}
 		if(scene == 4){
-			if(Time.timeSinceLevelLoad > 62){
+			if(Time.timeSinceLevelLoad > 61){
 				SceneManager.LoadScene("05 - End");
 				scene = 5;
 			}
