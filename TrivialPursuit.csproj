@@ -372,10 +372,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\cameraMove.cs" />
     <Compile Include="Assets\Scripts\Manager.cs" />
-    <Compile Include="Assets\Scripts\s03_words.cs" />
+    <Compile Include="Assets\Scripts\s04_words.cs" />
+    <Compile Include="Assets\Scripts\Scene 04\bandit_02_scene04.cs" />
     <Compile Include="Assets\Scripts\Tears.cs" />
+    <Compile Include="Assets\Scripts\Title.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\NatureStarterKit2\info.txt" />

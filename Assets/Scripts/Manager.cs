@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Manager : MonoBehaviour {
 	int scene = 0;
+	public AudioSource music = GameObject.Find("Music").GetComponent<AudioSource>();
 	void Start (){
 		DontDestroyOnLoad(this.gameObject);
 	}
@@ -15,38 +16,48 @@ public class Manager : MonoBehaviour {
 		Debug.Log("Scene = " + scene);
 		Debug.Log("Time = " + Time.timeSinceLevelLoad);
 
+		//music.PlayDelayed(7);
+		if(scene == 6){
+			if(Time.timeSinceLevelLoad > 11){
+				SceneManager.LoadScene("07 - Credits");
+				scene = 7;
+			}
+		}
 		if(scene == 5){
-			if(Time.timeSinceLevelLoad > 8){
-				// Application.Quit();
+			if(Time.timeSinceLevelLoad > 61){
+				SceneManager.LoadScene("06 - End");
+				scene = 6;
 			}
 		}
 		if(scene == 4){
-			if(Time.timeSinceLevelLoad > 61){
-				SceneManager.LoadScene("05 - End");
+			if(Time.timeSinceLevelLoad > 4.5){
+				SceneManager.LoadScene("05 - Stomp to fight");
 				scene = 5;
 			}
 		}
 		if(scene == 3){
-			if(Time.timeSinceLevelLoad > 4){
-				SceneManager.LoadScene("04 - Stomp to fight");
+			if(Time.timeSinceLevelLoad > 20){
+				SceneManager.LoadScene("04 - Blackout");
 				scene = 4;
 			}
 		}
 		if(scene == 2){
-			if(Time.timeSinceLevelLoad > 20){
-				SceneManager.LoadScene("03 - Blackout");
+			if(Time.timeSinceLevelLoad > 11.5){
+				SceneManager.LoadScene("03 - Trip and Cry");
 				scene = 3;
 			}
 		}
 		if(scene == 1){
-			if(Time.timeSinceLevelLoad > 12){
-				SceneManager.LoadScene("02 - Trip and Cry");
+			// music.Play();
+			if(Time.timeSinceLevelLoad > 8.5){
+				SceneManager.LoadScene("02 - Running");
 				scene = 2;
 			}
 		}
 		if(scene == 0){
-			if(Time.timeSinceLevelLoad > 9){
-				SceneManager.LoadScene("01 - Running");
+			music.Play();
+			if(Time.timeSinceLevelLoad > 8){
+				SceneManager.LoadScene("01 - Intro Running");
 				scene = 1;
 			}
 		}
